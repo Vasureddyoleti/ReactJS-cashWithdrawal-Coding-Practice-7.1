@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.bg-container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding: 30px;
+  width: 500px;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.profile-logo {
+  border-radius: 50px;
+  background-color: #c7d2fe;
+  padding: 10px;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-text {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.name-heading {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-left: 10px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.balance-heading {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+.balance-text {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.balance-description {
+  color: #585076;
+  font-family: 'Roboto';
+  margin: 2px;
+}
+.withdraw-heading {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  margin: 10px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.choose-amount {
+  color: #585076;
+  font-family: 'Roboto';
+  margin: 10px;
+}
+.denomination-container {
+  margin: 5px;
+}
+.list-container {
+  padding-left: 0px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
